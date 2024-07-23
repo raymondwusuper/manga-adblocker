@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Standard Adblocker",
+    "description": "Block ads.",
+    "version": "0.0.1",
+    "author": "Raymond Wu",
+    "action": {
+        "default_title": "Adblocker"
+    },
+    "host_permissions": [
+        "https://manga4life.com/*"
+    ],
+    "permissions": [
+        "scripting",
+        "tabs",
+        "webNavigation"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
