@@ -22,7 +22,7 @@ It listens for navigation events using onCommitted, checks if the navigation is 
 ### manifest.json:
 This file defines the extension's metadata and permissions (customizable)
 
-In order to inject this extension into Chrome or any other Chromium browser, download or clone the files. On Chrome, go to settings --> extensions --> developer mode, toggle it, and click 'load unpacked' and select the directory containing the scripts. After this, this extension should be installed and active.
+**In order to inject this extension into Chrome or any other Chromium browser, download or clone the files**. On Chrome, go to settings --> extensions --> developer mode, toggle it, and click 'load unpacked' and select the directory containing the scripts. After this, this extension should be installed and active.
 
 This adblocker will automatically run on the specified websites. 
 
